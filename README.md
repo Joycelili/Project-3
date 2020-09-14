@@ -1,13 +1,12 @@
-[TopGames Google Play](output/pgcover.png)
+[TopGames Google Play](input/pgcover.png)
 
-###Proyecto- Top Free Games Google Play
+Proyecto- Top Free Games Google Play
 
 Para este proyecto se escogió el dataframe de Kaggle [Google Play Store Apps](https://www.kaggle.com/lava18/google-play-store-apps/notebooks), el cual está compuesto de información de todas las Apps de Google Play del año 2018 y en donde nos vamos a centrar en los Juegos gratis, los cuales son la 2da categoría mas descargada de la App, siendo la 1era categoría las Apps con temática de Familia, según el propio dataframe.
 
 Apis vs. Dataframe:
 
-Con la visión de enriquecer los ratings de dicho dataframe, se trabaja con la API de Google Play Top Free Games, actializado.
-
+Con la visión de enriquecer los ratings de dicho dataframe, se trabaja con la API de Google Play Top Free Games, actualizado.
 
 Ejecución del programa:
 
