@@ -5,10 +5,7 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime 
-import search as sea
 import argparse
-
-
 
 def cargaDataSet():
     """llamada al dataset"""
@@ -21,15 +18,15 @@ def requestRating(r):
     return scores[f'{r}']
 
 def search_name(n):
-"""Datos la app elegida"""
+    """Datos la app elegida"""
     return df[df['App']==f'{n}'][['App','Content Rating','Rating','Genre']]
 
 def search_genre(g):
-"""Llamado por genero de juego"""
+    """Llamado por genero de juego"""
     return df[df['Genre']==f'{g}'][['App','Content Rating','Rating','Genre']]
 
 def search_content(c):
-"""Busca por  tipo de contenido  """
+    """Busca por  tipo de contenido  """
     return df[df['Content Rating']==f'{c}'][['App','Content Rating','Rating','Genre']]
 
 def typegenre(g):

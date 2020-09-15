@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime 
-import search as sea
+import src.search as sea
 import argparse
 
 def cargaDataSet():
