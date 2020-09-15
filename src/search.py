@@ -44,5 +44,5 @@ def typecontent(c):
     if x not in content:
         raise argparse.ArgumentTypeError(f"No hay de la clificicación que buscas {c}")
     else:
-        print(contant(c))
+        print(content(c))
 
