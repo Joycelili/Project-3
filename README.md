@@ -1,4 +1,4 @@
-[TopGames Google Play](input/gpcover.png)
+![gpcover](https://user-images.githubusercontent.com/66042132/93179328-cd6cac00-f735-11ea-892d-f96dadbe8b31.png)
 
 ###**Proyecto- Top Free Games Google Play**
 
