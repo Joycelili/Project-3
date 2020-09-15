@@ -45,3 +45,8 @@ def typecontent(c):
         raise argparse.ArgumentTypeError(f"No hay de la clificicación que buscas {c}")
     else:
         print(content(c))
+
+def mean_info(x):
+    data = pd.read_csv('output/limpiezadf.csv')
+    m = data[x].mean()
+    return print('The mean is:', m)

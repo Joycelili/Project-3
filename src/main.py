@@ -36,5 +36,7 @@ def main(rating,name,genre,content_rating):
     if args.typecontent != None:
         print(sea.requestContRat())
 
+sea.statistical_info('Rating')
+
 if __name__ == "__main__":
         main()
