@@ -1,6 +1,6 @@
 ![gpcover](https://user-images.githubusercontent.com/66042132/93179328-cd6cac00-f735-11ea-892d-f96dadbe8b31.png)
 
-<h1>Proyecto- Top Free Games Google Play<h1/>
+<h1>Proyecto- Top Free Games Google Play</h1>
 
 Para este proyecto se escogió el dataframe de Kaggle [Google Play Store Apps](https://www.kaggle.com/lava18/google-play-store-apps/notebooks), el cual está compuesto de información de todas las Apps de Google Play del año 2018 y en donde nos vamos a centrar en los Juegos gratis, los cuales son la 2da categoría mas descargada de la App, siendo la 1era categoría las Apps con temática de Familia, según el propio dataframe.
 
